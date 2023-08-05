@@ -1,0 +1,119 @@
+/* Home.css */
+*{
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-family:  sans-serif;
+}
+.home-container {
+    background-color: whitesmoke;
+    
+  }
+
+  .search-container{
+    margin: 20px 20px 20px;
+  }
+  .search-container > input {
+    width: 99%;
+    font-size: medium;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+  }
+  .item-list {
+    
+    list-style: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    display:  grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    width: 100%;
+  }
+  
+  .item-card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    height: 90%;
+    
+    margin-bottom: -90px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.1);
+    cursor: pointer;
+  }
+  
+  .item-title {
+    font-size: medium;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .item-description {
+    font-size: small;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .read-more {
+    color: #ef730d;
+    cursor: pointer;
+    font-size: small;
+  }
+  nav{
+    display: flex;
+    align-items: center;
+    background-color: #ef730d;
+    gap: 40%;
+    color: #fff;
+    padding: 10px;
+  }
+
+  nav> h1{
+    width: fit-content;
+  }
+  nav > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color: white;
+    color: #ef730d;
+    padding: 10px;
+    border-radius: 50px;
+    
+  }
+  img{
+    width: 100%;
+    height: 50%;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.3);
+  }
+
+  a{
+    text-decoration: none;
+    margin: 0px 10px 0px;
+  }
+  .home-container> h1{
+    margin: 10px 20px 10px;
+  }
+  
+
+  @media (min-width: 768px) and (max-width: 1080px) {
+    .item-list {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  @media (max-width: 768px) {
+    .item-list {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }

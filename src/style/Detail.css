@@ -1,0 +1,92 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-family:  sans-serif;
+}
+.detail-container {
+    padding: 20px;
+    background-color: whitesmoke;
+  }
+  
+  .detail-title {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .detail-body {
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .user-id {
+    color: #888;
+  }
+
+  nav{
+    display: flex;
+    align-items: center;
+    background-color: #ef730d;
+    gap: 40%;
+    color: #fff;
+    padding: 10px;
+  }
+
+  nav> h1{
+    width: fit-content;
+  }
+  nav > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color: white;
+    color: #ef730d;
+    padding: 10px;
+    border-radius: 50px;
+    
+  }
+
+  .display-container{
+    margin-top: 10px;
+    display: flex;
+    gap: 20px;
+  }
+
+  .button-container{
+    display: flex;
+    gap: 20px;
+  }
+  .info-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: gray;
+  }
+
+  button{
+    padding: 10px 15px;
+    border-radius: 50px;
+    background-color: white;
+    border: 1px solid #ef730d;
+  }
+
+  button:focus{
+    background-color: #ef730d;
+  }
+
+  .display-container > img{
+    width: 30%;
+    height: 20%;
+  }
+
+  .more-posts-container{
+    margin-top: 30px;
+  }
+
+  .more-posts-container > h1{
+    margin-bottom: 20px;
+    margin-left: 10px;
+  }
+  
